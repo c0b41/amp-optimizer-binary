@@ -1,0 +1,17 @@
+{
+  "name": "amp-optimizer-binary",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { 
+    "build": "pkg -t node12-linux,node12-macos,node12-win -o dist/optimizer ./index.js",
+    "build:win": "pkg -t node12-win -o dist/optimizer ./index.js",
+    "build:linux": "pkg -t node12-linux -o dist/optimizer ./index.js",
+    "build:macos": "pkg -t node12-macos -o dist/optimizer ./index.js"
+  },
+  "dependencies": {
+    "@ampproject/toolbox-optimizer": "^2.0.0-alpha.6"
+  },
+  "devDependencies": {
+    "pkg": "^4.4.2"
+  }
+}
