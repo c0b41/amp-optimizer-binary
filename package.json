@@ -1,6 +1,6 @@
 {
   "name": "amp-optimizer-binary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "scripts": { 
     "build": "pkg -t node12-linux,node12-macos,node12-win -o dist/optimizer ./index.js",

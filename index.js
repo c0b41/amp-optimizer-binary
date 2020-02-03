@@ -8,5 +8,5 @@ const AmpOptimizer = require('@ampproject/toolbox-optimizer');
         const output = await ampOptimizer.transformHtml(process.argv[2])
         
         console.log(output)
-    }.
+    }
 })();
